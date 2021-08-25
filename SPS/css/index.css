@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(rgb(26, 26, 71),rgb(35, 17, 63));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    width:50%;
+    height:15vh;
+    color:#fafafa;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border:2px solid #fafafa;
+    padding:15px;
+}
+.board{
+    border-radius: 5px;
+    color:rgb(29, 29, 114);
+    background-color: #fafafa;
+    width:10vw;
+    text-align: center;
+}
+.board p{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.board h1{
+    font-size: 3rem;
+}
