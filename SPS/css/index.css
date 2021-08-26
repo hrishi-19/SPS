@@ -21,6 +21,9 @@
     border:2px solid #fafafa;
     padding:15px;
 }
+.title{
+    text-transform: uppercase;
+}
 .board{
     border-radius: 5px;
     color:rgb(29, 29, 114);
@@ -34,4 +37,26 @@
 }
 .board h1{
     font-size: 3rem;
+}
+.game{
+    height: 400px;
+    width:500px;
+    padding:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    background-image: url("/SPS/assets/triangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.paper{
+    margin-right: 25px;
+}
+.stone{
+    margin-left: 25px;
+}
+.hand:hover{
+    transform: translate3d(0px,2px,5px);
+    cursor: pointer;
 }
