@@ -33,7 +33,7 @@
 }
 .board p{
     font-size: 1.75rem;
-    font-weight: 500;
+    font-weight: 1000;
 }
 .board h1{
     font-size: 3rem;
@@ -42,7 +42,7 @@
     height: 400px;
     width:500px;
     padding:25px;
-    display: none;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
@@ -64,9 +64,10 @@
     cursor: pointer;
 }
 .result{
-    width:900px;
-    height:300px;
-    display:flex;
+    width:700px;
+    height:400px;
+    padding: 3px;
+    display:none;
     justify-content: space-between;
     color:#fafafa;
     margin-top: 10vh;
@@ -79,11 +80,7 @@
 .result h1{
     color:rgb(223, 182, 0);
 }
-.refree{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .refree h1,button{
     margin-top: 100px;
     flex:1;
@@ -91,6 +88,8 @@
 }
 .refree >button{
     border-radius: 10px;
+    height:50px;
+    width:10vw;
     text-align: center;
     border: none;
     text-transform: uppercase;
@@ -98,4 +97,6 @@
     font-weight: 1000;
     color:rgb(27, 27, 85);
     cursor: pointer;
+    position: relative;
+   left:15px;
 }

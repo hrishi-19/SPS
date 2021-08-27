@@ -18,7 +18,7 @@
         <div class="game">
             <div class=" hand paper">
                 <img src="assets/Paper.png" alt="paper" onclick="PickUserHand('paper')">
-            </div> 
+            </div>
             <div class=" hand rock">
                 <img src="assets/Rock.png" alt="Rock" onclick="PickUserHand('rock')">
             </div> 
@@ -31,12 +31,12 @@
             <div class="hand-picked">
                 <h1>YOU PICKED</h1>
                 <div class="choosen-img">
-                    <img src="assets/Paper.png" alt="">
+                    <img id="PickedHand" src="" alt="">
                 </div>
             </div>
             <div class="refree">
                 <h1>YOU WIN!</h1>
-                <button>Play again.</button>
+                <button onclick="restart()">Play again.</button>
             </div>
             <div class="computer-hand">
                 <h1>GAME PICKED</h1>
