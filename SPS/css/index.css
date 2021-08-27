@@ -56,7 +56,10 @@
 .stone{
     margin-left: 25px;
 }
+.hand{
+    transition: all 0.25s;
+}
 .hand:hover{
-    transform: translate3d(0px,2px,5px);
+    transform: translate3d(0px,-8px,0px);
     cursor: pointer;
 }
