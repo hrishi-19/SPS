@@ -42,7 +42,7 @@
     height: 400px;
     width:500px;
     padding:25px;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
@@ -61,5 +61,41 @@
 }
 .hand:hover{
     transform: translate3d(0px,-8px,0px);
+    cursor: pointer;
+}
+.result{
+    width:900px;
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+    color:#fafafa;
+    margin-top: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.result img{
+    margin-top: 70px;
+}
+.result h1{
+    color:rgb(223, 182, 0);
+}
+.refree{
+    display: flex;
+    flex-direction: column;
+    
+}
+.refree h1,button{
+    margin-top: 100px;
+    flex:1;
+
+}
+.refree >button{
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    color:rgb(27, 27, 85);
     cursor: pointer;
 }
