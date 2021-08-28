@@ -1,10 +1,10 @@
 const HandOptions={
-    "rock":"/SPS/assets/Rock.png",
-    "paper":"/SPS/assets/Paper.png",
-    "scissor":"/SPS/assets/Scissors.png"
+    "rock":"./assets/Rock.png",
+    "paper":"./assets/Paper.png",
+    "scissor":"./assets/Scissors.png"
 }
 
-const PickUserHand=(hand)=>{
+const HandPicked=(hand)=>{
     let handSelected=document.querySelector('.game');
     let AfterSelected=document.querySelector('.result');
     handSelected.style.display="none";
@@ -19,6 +19,7 @@ const ComputerHand=()=>{
     let cpHand=hands[Math.floor(Math.random() * 3)]
     document.getElementById("game-hand").src=HandOptions[cpHand];
 }
+    
 //function to play again
 const restart=()=>{
     let handSelected=document.querySelector('.game');
