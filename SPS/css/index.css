@@ -77,13 +77,10 @@
 .result img{
     margin-top: 70px;
 }
-.result h1{
-    color:rgb(223, 182, 0);
-}
-
 .refree h1,button{
     margin-top: 100px;
     flex:1;
+    color:rgb(223, 182, 0);
 
 }
 .refree >button{
