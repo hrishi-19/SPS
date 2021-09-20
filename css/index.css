@@ -71,11 +71,11 @@ body{
 .result{
     width:700px;
     height:400px;
-    padding: 3px;
+    padding: 25px;
     display:none;
     justify-content: space-between;
     color:#fafafa;
-    margin-top: 10vh;
+    margin-top: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
 }
@@ -100,5 +100,5 @@ body{
     color:rgb(27, 27, 85);
     cursor: pointer;
     position: relative;
-   left:15px;
+    left:15px;
 }
